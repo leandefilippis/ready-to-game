@@ -37,7 +37,7 @@ videogamesRouter.post('/', async (req,res) => {
     } = req.body
 
     try {
-        let newVideogame = await Videogame.creat({
+        let newVideogame = await Videogame.create({
             name,
             description,
             image,
