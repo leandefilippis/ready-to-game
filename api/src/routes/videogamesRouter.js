@@ -54,7 +54,7 @@ videogamesRouter.post('/', async (req,res) => {
         newVideogame.addGenre(findGenre)
         res.status(200).send(newVideogame)
     } catch (err) {
-        res.status(404).send({err: "Videogame was not created"})
+        res.status(400).send({err: "Videogame was not created"})
     }
 })
 
