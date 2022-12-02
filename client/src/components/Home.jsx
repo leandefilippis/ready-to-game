@@ -128,6 +128,7 @@ export default function Home(){
                     return(
                         <Link to={'/videogame/'+ e.id} style={{textDecoration:'none', color:'white'}} key={e.id}>
                             <Card 
+                            key={e.name}
                             name={e.name}
                             genres={e.genres}
                             rating={e.rating}

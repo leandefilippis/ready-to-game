@@ -21,11 +21,11 @@ export default function Card({ id, name, image, rating, genres }) {
           <Name>{name}</Name>
           <Rating>{rating}</Rating>
         </NameRatingDiv>
-        <GenreDiv>
+        {/* <GenreDiv>
           {genres?.map((e) => {
             return <Genre>{e}</Genre>;
           })}
-        </GenreDiv>
+        </GenreDiv> */}
       </StyledCard>
     </>
   );
