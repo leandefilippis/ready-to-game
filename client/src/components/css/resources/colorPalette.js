@@ -1,0 +1,5 @@
+export const MainBlack = '#201b23'
+export const MainPurple = '#452838'
+export const MidPurple = '#6b4a56'
+export const MidLowPurple = '#a07b91'
+export const LowPurple = '#caa2b3'
